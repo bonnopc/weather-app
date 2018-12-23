@@ -4,7 +4,10 @@ export default class HomeContainer extends Component {
     render(){
         return(
             <Fragment>
-                Weather App Home
+                <div className="container">
+                    Weather App Home
+                </div>
+                
             </Fragment>
         )
     }
