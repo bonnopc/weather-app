@@ -21,8 +21,9 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
-<<<<<<< HEAD
-=======
+
 package-lock.json
 *.css.map
->>>>>>> 2c18b496bcf310c3b0d5841198dbe5f620adc1f3
+
+*.css.map
+>>>>>>> dev
