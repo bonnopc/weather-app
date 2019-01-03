@@ -1,3 +1,8 @@
-.container{
-    border: 1px solid #bbbbbb;
+@import "./config";
+@import "../modules/home/styles/index";
+@import "../modules/settings/styles/index";
+
+body{
+    color: $font-color;
 }
+

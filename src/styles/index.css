@@ -1,2 +1,21 @@
-.container {
-  border: 1px solid #bbbbbb; }
+.has-fill-bg-image {
+  background-color: #4d4d4d;
+  height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; }
+
+.settings-icon {
+  position: fixed;
+  color: white;
+  bottom: 0.5rem;
+  right: 0.5rem;
+  font-size: x-large;
+  opacity: 0.5;
+  cursor: pointer;
+  padding: 0 0.5rem; }
+
+body {
+  color: #333333; }
+
+/*# sourceMappingURL=index.css.map */
