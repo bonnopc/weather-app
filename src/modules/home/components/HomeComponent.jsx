@@ -1,8 +1,9 @@
 import React, { Component, Fragment } from "react";
-import { TiWorldOutline } from "react-icons/ti";
+// import { TiWorldOutline } from "react-icons/ti";
 import moment from "moment";
 import clearNoon from "../../../assets/bg/clear-noon.jpg";
 import SettingsContainer from "../../settings/containers/SettingsContainer";
+import CurrentWeatherContainer from "../../currentWeather/containers/CurrentWeatherContainer"
 
 class CurrentTime extends Component {
     state = {
@@ -37,11 +38,12 @@ export default class HomeContainer extends Component {
                 <div 
                     style={{backgroundImage: `url(${clearNoon})`}}
                     className="main-container has-fill-bg-image shadow p-2">
-                    <TiWorldOutline/>
-                    <span className="ml-2">Weather App Home</span>
+                    {/* <TiWorldOutline/>
+                    <span className="ml-2">Weather App Home</span> */}
                     <h1 className="text-center">
                         <CurrentTime/>
                     </h1>
+                    <CurrentWeatherContainer/>
                 </div>
                 <SettingsContainer/>
             </Fragment>
