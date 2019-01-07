@@ -1,9 +1,13 @@
-const initialState = {
-    articles: []
-};
+import { combineReducers } from "redux";
 
-function rootReducer(state = initialState, action) {
-    return state;
-};
+import { currentWeather } from "../../src/modules/currentWeather/reducers";
+import { weatherForecast } from "../../src/modules/weatherForecast/reducers";
+import { settings } from "../../src/modules/settings/reducers";
 
-export default rootReducer;
+const appReducers = combineReducers({
+    currentWeather,
+    weatherForecast,
+    settings
+});
+
+export default appReducers;
