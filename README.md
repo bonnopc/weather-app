@@ -1,5 +1,5 @@
 <p align="center">
-    Weather App
+    <img src="https://i.imgur.com/yfdyQun.png" height="280px">
 </>
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
